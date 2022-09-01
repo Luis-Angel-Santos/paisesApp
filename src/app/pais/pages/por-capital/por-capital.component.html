@@ -1,6 +1,7 @@
-<h2>Buscar por capital</h2>
+<div class="animate__animated animate__fadeIn">
+    <h2>Buscar por capital</h2>
 <hr>
-<div class="row">
+<div class="row ">
     <div class="col">
         <app-pais-input 
             (onEnter)="buscar( $event )" 
@@ -9,6 +10,7 @@
     </div>
 </div>
 <hr>
+</div>
 <div class="alert alert-danger" *ngIf="error">
     No se encontro nada relacionado con {{termino}} :(
 </div>
